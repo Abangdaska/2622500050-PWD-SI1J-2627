@@ -176,3 +176,17 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 }
+
+@media (min-width: 768x) {
+    /* aturan CSS untuk viewport dengan lebar minimaal 768x */
+    main {
+        grid-template-columns: 1fr 1f;
+    }
+}
+
+    nav ul {
+        flex-direction: row;
+        just
+    }
+    
+    
