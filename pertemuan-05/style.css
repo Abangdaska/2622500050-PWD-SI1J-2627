@@ -142,49 +142,43 @@ margin: 0;
         
 /* Footer */
 footer {
-    background-color: #003366;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 20px;
-    margin-top: 20px;
-    border: 1px solid #00264d;
+ background-color: #003366;
+ color: #ffffff;
+ text-align: center;
+ padding: 14px 20px;
+ margin-top: 20px;
+ border: 1px solid #00264d;
 }
-
 footer p {
-    margin: 0;
+ margin: 0;
+ }
+.form-feedback-error {
+ color: #c62828;
 }
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 8px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.form-feedback-success {
+ color: #2e7d32;
 }
-
-nav a {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-}
-
-@media (min-width: 768x) {
-    /* aturan CSS untuk viewport dengan lebar minimaal 768x */
-    main {
-        grid-template-columns: 1fr 1f;
-    }
-}
-
-    nav ul {
-        flex-direction: row;
-        just
-    }
+/* Layout untuk viewport yang lebih lebar */
+@media (min-width: 768px) {
+ nav {
+ margin-top: 16px;
+ }
+ nav ul {
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 16px;
+ }
+ main {
+ grid-template-columns: 1fr 1fr;
+ }
+ #contact {
+ grid-column: 1 / -1;
+ }
+ #navMenu {
+ display: flex;
+ flex-direction: row;
+ }
+ .nav-toggle {
+ display: none;
+ }
