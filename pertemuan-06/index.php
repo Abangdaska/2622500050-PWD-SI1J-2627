@@ -1,4 +1,3 @@
-# pertemuan-06
 <!doctype html>
 <html lang="id">
     <head>
