@@ -1,8 +1,8 @@
 <?php
 // P6: PHP dasar dan pemrograman sisi peladen
 // Bagian 1: Variabel dan konstanta
-$nim = "2622500060";
-$namaMahasiswa = "Bagus arizki ramadan";
+$nim = "26225000050";
+$namaMahasiswa = "Abang Daska";
 $programStudi = "SI";
 $tahunAkademik = "2026/2027";
 $semester = 1;
@@ -11,8 +11,7 @@ $statusAktif = true;
 $catatanTambahan = null;
 
 const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
-const PROFIL_GITHUB = "2622500060-arch"
-const PROFIL_GITHUB = "2622500060-arch";
+const PROFIL_GITHUB = "2622500050-Abangdaska";
 
 // Bagian 2: Operator
 $batasSemester = 8;
@@ -79,7 +78,7 @@ switch ($programStudi) {
       <section id="home">
         <h2>Selamat Datang</h2>
         <p>Halo, saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; ?>.</p>
-        <img src="img/foto-profil.png" alt="Foto Profil" />
+        <img src="img/foto.jpeg" alt="Foto Profil Abang Daska" />
       </section>
 
       <section id="about">
@@ -137,7 +136,7 @@ switch ($programStudi) {
 
       <section id="contact">
         <h2>Kontak</h2>
-        <p>Kunjungi <a target="_blank" href="https://github.com/<?= PROFIL_GITHUB ?>">profil github saya</a>
+        <p>Kunjungi <a target="_blank" href="https://github.com/Abangdaska"<?= PROFIL_GITHUB ?>">profil github saya</a>
 
         <form id="contactForm" action="index.php" method="get" novalidate>
           <div class="form-group">
@@ -239,4 +238,3 @@ switch ($programStudi) {
 
     <script src="script.js"></script> 
   </body>
-  
