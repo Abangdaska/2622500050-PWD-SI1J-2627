@@ -12,9 +12,9 @@
     <header>
         <div class="header-container">
             <!-- Logo Website -->
-            <img src="img/logo.jpeg alt="Logo Website" class="logo">
+            <img src="img/logo.jpeg" alt="Logo Website" class="logo">
             <!-- Tulisan dengan Nama Website Anda -->
-            <h1>Blog Pribadi - [NAMA ANDA]</h1>
+            <h1>Hallo Web - Abang Daska</h1>
         </div>
     </header>
 
@@ -39,16 +39,14 @@
             <!-- Konten Beranda -->
             <section id="beranda" class="content-section">
                 <h2>Beranda - Kegiatan & Hobi</h2>
-                <p>Selamat datang di website blog pribadi saya. Berikut adalah beberapa kegiatan dan hobi saya sehari-hari:</p>
+                <p>Selamat datang di website Hallo Web saya. Berikut adalah beberapa kegiatan dan hobi saya sehari-hari:</p>
                 <br>
                 <ul>
-                    <li>Mempelajari teknologi web dasar dan coding.</li>
-                    <li>Membaca artikel pemrograman dan desain UI/UX.</li>
-                    <li>Olahraga ringan di sore hari.</li>
+                    <li>Saya suka bermain bola.</li>
                 </ul>
                 <br>
                 <!-- Contoh penambahan gambar kegiatan/hobi -->
-                <img src="img/hobi.jpg" alt="Gambar Kegiatan" class="content-img">
+                <img src="img/hobi.jpeg" alt="Gambar Kegiatan" class="content-img">
             </section>
 
             <!-- Konten Profile -->
@@ -56,9 +54,9 @@
                 <h2>Profile Biodata</h2>
                 <div class="profile-box">
                     <!-- Foto Anda -->
-                    <img src="img/profile.jpg" alt="Foto Anda" class="profile-img">
-                    <h3>Nama Lengkap Anda</h3>
-                    <p><b>NIM:</b> [NIM Anda] | <b>Kelas:</b> SI1J</p>
+                    <img src="img/foto.jpeg" alt="Foto Anda" class="profile-img">
+                    <h3>Abang Daska</h3>
+                    <p><b>NIM:</b> [2622500050] | <b>Kelas:</b> SI1J</p>
                     <p><b>Program Studi:</b> Sistem Informasi</p>
                     <p><b>Bio Singkat:</b> Mahasiswa aktif Institut Sains dan Bisnis (ISB) Atma Luhur.</p>
                 </div>
@@ -86,7 +84,7 @@
 
     <!-- 4. BAGIAN FOOTER (Sesuai format teks di soal) -->
     <footer>
-        <p>&copy; [NIM]_Nama Lengkap Anda_SI1J_UTS Pemrograman Web Dasar.</p>
+        <p>&copy; [2622500050]_Abang Daska_SI1J_UTS Pemrograman Web Dasar.</p>
     </footer>
 
     <script src="script.js"></script>
