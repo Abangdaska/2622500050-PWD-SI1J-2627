@@ -12,12 +12,12 @@ body {
     background-color: #f9f9f9;
 }
 
-/* HEADER STYLE (Poin 2 Soal) */
 header {
     background-color: #2c3e50;
     color: white;
     padding: 20px;
-    border-bottom: 4px solid #1abc9c;
+    border-bottom: 4px ;
+    display: flex;
 }
 
 .header-container {
@@ -35,13 +35,13 @@ header {
     border: 2px solid white;
 }
 
-/* LAYOUT UTAMA (NAVIGASI & KONTEN BERSEBELAHAN) */
+
 .main-container {
     display: flex;
     flex: 1;
 }
 
-/* NAVIGASI STYLE (Poin 3 Soal - Tag List) */
+
 nav {
     width: 260px;
     background-color: #34495e;
@@ -58,7 +58,7 @@ nav h3 {
 }
 
 nav ul {
-    list-style-type: none; /* Menggunakan tag list */
+    list-style-type: none; 
 }
 
 nav ul li {
@@ -79,7 +79,7 @@ nav ul li a:hover {
     background-color: #1abc9c;
 }
 
-/* KONTEN STYLE */
+
 main {
     flex: 1;
     padding: 30px;
@@ -93,7 +93,7 @@ main {
     padding-bottom: 5px;
 }
 
-/* GAMBAR & PROFIL */
+
 .content-img {
     max-width: 250px;
     border-radius: 8px;
@@ -149,12 +149,11 @@ form input {
     background-color: #16a085;
 }
 
-/* FOOTER STYLE (Poin 4 Soal) */
 footer {
     background-color: #2c3e50;
     color: white;
     text-align: center;
     padding: 15px;
     font-size: 13px;
-    border-top: 4px solid #1abc9c;
+    border-top: 4px;
 }
