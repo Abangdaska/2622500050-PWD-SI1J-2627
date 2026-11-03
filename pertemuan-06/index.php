@@ -236,5 +236,5 @@ switch ($programStudi) {
       <p>&copy; <?= date("Y") ?> <?php echo $namaMahasiswa; ?> [<?= $nim ?>]</p>
     </footer>
 
-    <script src="script.js"></script> 
+    <script src="scrpit.js"></script> 
   </body>
